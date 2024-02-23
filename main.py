@@ -32,6 +32,17 @@ class TenGrade(Screen):
         self.manager.current = "main"
 
 
+class EightTasks(Screen):
+    pass
+
+
+class NineTasks(Screen):
+    pass
+
+
+class TenTasks(Screen):
+    pass
+
 class MyApp(App):
 
     def build(self):
