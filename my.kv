@@ -1,0 +1,350 @@
+<MainWindow>:
+    canvas:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: [100, 200, 100, 200]
+        spacing: 20
+
+        Label:
+            text: "В какой класс поступаете?"
+            color: (0, 0, 0, 1)
+            font_size: 25
+
+        Button:
+            text: "8 класс"
+            background_color: 20/255, 10/255, 250/255, 1
+            font_size: 30
+            on_release: root.eight_button_on_press()
+
+        Button:
+            text: "9 класс"
+            background_color: 20/255, 10/255, 250/255, 1
+            font_size: 30
+            on_release: root.nine_button_on_press()
+
+        Button:
+            text: "10 класс"
+            background_color: 20/255, 10/255, 250/255, 1
+            font_size: 30
+            on_release: root.ten_button_on_press()
+
+
+
+
+
+
+<EightGrade>:
+    canvas:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+
+    ScrollView:
+        BoxLayout:
+            orientation: "vertical"
+            padding: [50, 20, 50, 20]
+            size_hint_y: None
+            height: self.minimum_height
+            Button:
+                text: "Назад"
+                size_hint: (None, None)
+                size: (100, 50)
+                background_color: 255, 191/255, 0, 1
+                on_release: root.back_to_main_window()
+
+            Button:
+                text: "Задание 1"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 2"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 3"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 4"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 5"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 6"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 7"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 8"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 9"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 10"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Демоверсии"
+                size_hint_y: None
+                height: 60
+                background_color: 255, 191/255, 0, 1
+
+
+
+
+
+
+
+
+<NineGrade>:
+    canvas:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    ScrollView:
+        BoxLayout:
+            orientation: "vertical"
+            padding: [50, 20, 50, 20]
+            size_hint_y: None
+            height: self.minimum_height
+            Button:
+                text: "Назад"
+                size_hint: (None, None)
+                size: (100, 50)
+                background_color: 255, 191/255, 0, 1
+                on_release: root.back_to_main_window()
+
+            Button:
+                text: "Задание 1"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 2"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 3"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 4"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 5"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 6"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 7"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 8"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 9"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 10"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 11"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 12"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Демоверсии"
+                size_hint_y: None
+                height: 60
+                background_color: 255, 191/255, 0, 1
+
+
+
+
+
+
+<TenGrade>:
+    canvas:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    ScrollView:
+        BoxLayout:
+            orientation: "vertical"
+            padding: [50, 20, 50, 20]
+            size_hint_y: None
+            height: self.minimum_height
+            Button:
+                text: "Назад"
+                size_hint: (None, None)
+                size: (100, 50)
+                background_color: 255, 191/255, 0, 1
+                on_release: root.back_to_main_window()
+
+            Button:
+                text: "Задание 1"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 2"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 3"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 4"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 5"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 6"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 7"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 8"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 9"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 10"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 11"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 12"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 13"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Задание 14"
+                size_hint_y: None
+                height: 60
+                background_color: 20/255, 10/255, 250/255, 1
+
+            Button:
+                text: "Демоверсии"
+                size_hint_y: None
+                height: 60
+                background_color: 255, 191/255, 0, 1
