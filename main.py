@@ -41,9 +41,6 @@ class MyApp(App):
         screen_manager.add_widget(EightGrade(name="eight"))
         screen_manager.add_widget(NineGrade(name="nine"))
         screen_manager.add_widget(TenGrade(name="ten"))
-        screen_manager.add_widget(EightTasks(name="eight_tasks"))
-        screen_manager.add_widget(NineTasks(name="nine_tasks"))
-        screen_manager.add_widget(TenTasks(name="ten_tasks"))
 
         screen_manager.current = "main"
 
