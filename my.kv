@@ -20,19 +20,25 @@
             text: "8 класс"
             background_color: 20/255, 10/255, 250/255, 1
             font_size: 30
-            on_release: root.eight_button_on_press()
+            on_press:
+                root.eight_button_on_press()
+                root.manager.transition.direction = "left"
 
         Button:
             text: "9 класс"
             background_color: 20/255, 10/255, 250/255, 1
             font_size: 30
-            on_release: root.nine_button_on_press()
+            on_press:
+                root.nine_button_on_press()
+                root.manager.transition.direction = "left"
 
         Button:
             text: "10 класс"
             background_color: 20/255, 10/255, 250/255, 1
             font_size: 30
-            on_release: root.ten_button_on_press()
+            on_press:
+                root.ten_button_on_press()
+                root.manager.transition.direction = "left"
 
 
 
@@ -59,7 +65,11 @@
                 size_hint: (None, None)
                 size: (100, 50)
                 background_color: 255, 191/255, 0, 1
-                on_release: root.back_to_main_window()
+                on_press:
+                    root.manager.transition.direction = "right"
+                    root.manager.current = 'main'
+
+
 
             Button:
                 text: "Задание 1"
@@ -153,7 +163,9 @@
                 size_hint: (None, None)
                 size: (100, 50)
                 background_color: 255, 191/255, 0, 1
-                on_release: root.back_to_main_window()
+                on_press:
+                    root.manager.current = 'main'
+                    root.manager.transition.direction = "right"
 
             Button:
                 text: "Задание 1"
@@ -257,7 +269,9 @@
                 size_hint: (None, None)
                 size: (100, 50)
                 background_color: 255, 191/255, 0, 1
-                on_release: root.back_to_main_window()
+                on_press:
+                    root.manager.current = 'main'
+                    root.manager.transition.direction = "right"
 
             Button:
                 text: "Задание 1"

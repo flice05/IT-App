@@ -18,18 +18,15 @@ class MainWindow(Screen):
 
 
 class EightGrade(Screen):
-    def back_to_main_window(self):
-        self.manager.current = "main"
+    pass
 
 
 class NineGrade(Screen):
-    def back_to_main_window(self):
-        self.manager.current = "main"
+    pass
 
 
 class TenGrade(Screen):
-    def back_to_main_window(self):
-        self.manager.current = "main"
+    pass
 
 
 class EightTasks(Screen):
